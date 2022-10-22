@@ -12,7 +12,7 @@ states.each do |keys, values|
   puts "The state of #{keys} uses the abbreviation #{values}."
 end
 
-=begin
+
 # ======================================
 # 2- Using the following Hash
 
@@ -24,11 +24,12 @@ birthdays = {
 }
 
 # Use the each method to iterate through it and print out a sentence stating each friends name and birthday
-#
-#
-#
 
+birthdays.each do |keys, values|
+  puts "#{keys}'s birthday is on #{values}."
+end
 
+=begin
 # ======================================
 # 3- Using the following Hash
 
