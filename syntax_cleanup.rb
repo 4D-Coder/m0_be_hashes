@@ -1,7 +1,9 @@
 # Clean Up the code below to improve readability.
-foods = {"apples": 23, 
+foods = {
+  "apples": 23, 
   "grapes": 507, 
-  "eggs": 48}
+  "eggs": 48
+}
 
 person = { "height": "6 ft", "weight": "160 lbs" }
 
