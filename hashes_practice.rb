@@ -12,3 +12,11 @@ s_birthdays = {
     Justina_Pope: "01/01/2005",
     Elizabeth_Mahon: "07/15/1983",
 }
+
+tweet = {
+    username: "Leira_Sanchez",
+    handle: "@MechEngSanchez",
+    content: "My M1 Macbook Pro arrived 🤓",
+    time: "5:06 am",
+    date: "25 Jan 2022"
+}
