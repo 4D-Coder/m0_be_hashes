@@ -20,3 +20,36 @@ tweet = {
     time: "5:06 am",
     date: "25 Jan 2022"
 }
+tweet.each do |key, value|
+    puts "Your #{key} is #{value}"
+end
+
+# Use the following zoo variable to complete each prompt:
+zoo = {
+    giraffes: 3,
+    zebras: 12,
+    hippos: 2
+  }
+
+# Print all of the keys of the zoo Hash.
+puts zoo.keys
+
+# Print all of the values of the zoo Hash.
+puts zoo.values
+
+# Print the value of the first animal of the zoo.
+puts zoo.values[0]
+
+# Add an animal to the zoo.
+zoo[:tigers] = 6
+puts zoo.keys[3]
+
+# Check how many hippos are in the zoo.
+puts zoo[:hippos]
+
+# Add another animal to the zoo.
+zoo[:narwhals] = 2
+puts zoo.keys[4]
+
+# Print all of the keys of the zoo Hash.
+puts zoo.keys
