@@ -39,7 +39,7 @@ p foods
 
 
 #-------------------
-# Part 3: Email
+# Part 2: Email
 #-------------------
 
 
@@ -48,21 +48,30 @@ p foods
 
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
+email = {
+  sender: "housing@appfolio.com",
+  recipient: "Antonio.K.Hunt@Gmail.com",
+  date: "Oct 20, 2022, 2:10 PM",
+  subject: "Action Required: Rental History Verification",
+  mailer: "mailer.appfolio.com",
+  signer: "appfolio.com",
+  security: "Standard encryption (TLS)"
+}
 
 # Write code that prints your email hash to the terminal.
-
+p email
 
 # Write code that prints all of the 'keys' of the email hash 
 # you created above:
-# YOUR CODE HERE
+p email.keys
 
 # Write code that prints all of the 'values' of the email hash 
 # you created above:
-# YOUR CODE HERE
+p email.values
 
-
+=begin
 #-------------------
-# Part 4: Many Emails - CHALLENGE!
+# Part 3: Many Emails - CHALLENGE!
 #-------------------
 
 # LONG EXAMPLE:
@@ -109,3 +118,4 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+=end
