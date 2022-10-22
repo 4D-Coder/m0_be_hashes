@@ -69,7 +69,7 @@ p email.keys
 # you created above:
 p email.values
 
-=begin
+
 #-------------------
 # Part 3: Many Emails - CHALLENGE!
 #-------------------
@@ -118,4 +118,35 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same 
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
-=end
+
+email = [
+  {
+    sender: "housing@appfolio.com",
+    recipient: "Antonio.K.Hunt@Gmail.com",
+    date: "Oct 20, 2022, 2:10 PM",
+    subject: "Action Required: Rental History Verification",
+    mailer: "mailer.appfolio.com",
+    signer: "appfolio.com",
+    security: "Standard encryption (TLS)"
+  },
+  {
+    sender: "mcinfo@ups.com",
+    recipient: "Antonio.K.Hunt@Gmail.com",
+    date: "Oct 19, 2022, 3:24 PM",
+    subject: "Your UPS Package was delivered",
+    mailer: "ups.com",
+    signer: "ups.com",
+    security: "Standard encryption (TLS)"
+  },
+  {
+    sender: "shop@keeb.io",
+    recipient: "Antonio.K.Hunt@Gmail.com",
+    date: "Oct 17, 2022, 6:22 PM",
+    subject: "A shipment from order KB-40552 has been delivered",
+    mailer: "mailer.shopifyemail.com",
+    signer: "shopifyemail.com",
+    security: "Standard encryption (TLS)"
+  },
+]
+
+p email
