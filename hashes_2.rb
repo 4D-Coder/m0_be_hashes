@@ -8,11 +8,11 @@ states = {
 }
 
 # Use the each method to iterate through it and print out a sentence stating each state name and abbreviation
-#
-#
-#
+states.each do |keys, values|
+  puts "The state of #{keys} uses the abbreviation #{values}."
+end
 
-
+=begin
 # ======================================
 # 2- Using the following Hash
 
@@ -43,3 +43,4 @@ login_statuses = {
 #
 #
 #
+=end
