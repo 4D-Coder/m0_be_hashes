@@ -17,12 +17,10 @@ post = {
   comments: [] 
 }
 
-
-post2 =
-{
-      image_src: "./images/holiday-party.png",
-      caption: "What a great holiday party omg",
-      timestamp: "11:37 PM December 31, 2019",
-      number_likes: 13,
-      comments: []
+post2 = {
+  image_src: "./images/holiday-party.png",
+  caption: "What a great holiday party omg",
+  timestamp: "11:37 PM December 31, 2019",
+  number_likes: 13,
+  comments: []
 }
