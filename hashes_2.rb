@@ -29,7 +29,7 @@ birthdays.each do |keys, values|
   puts "#{keys}'s birthday is on #{values}."
 end
 
-=begin
+
 # ======================================
 # 3- Using the following Hash
 
@@ -41,7 +41,9 @@ login_statuses = {
 }
 
 # Use the each method to iterate through it and print ONLY the names of friends who are "logged in"
-#
-#
-#
-=end
+
+login_statuses.each do |keys, values|
+  if values == true
+  puts "#{keys}"
+  end
+end
