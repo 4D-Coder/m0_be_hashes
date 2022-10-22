@@ -1,4 +1,9 @@
 
+#-------------------
+# Part 1: Foods
+#-------------------
+
+
 Activity:
 
 # In the below exercises, write code that achieves
@@ -6,8 +11,13 @@ Activity:
 # file by entering the following command in your Terminal: 
 # `ruby hashes_1.rb`
 
-foods = {"apples": 23, "grapes": 507, "eggs": 48}
-p zoo
+foods = {
+  "apples": 23, 
+  "grapes": 507, 
+  "eggs": 48
+}
+
+p foods
 
 # Write code that prints all of the 'keys' of the foods variable 
 # you created above:
@@ -27,7 +37,7 @@ p zoo
 
 
 #-------------------
-# Part 2: Email
+# Part 3: Email
 #-------------------
 
 
@@ -50,7 +60,7 @@ p zoo
 
 
 #-------------------
-# Part 3: Many Emails - CHALLENGE!
+# Part 4: Many Emails - CHALLENGE!
 #-------------------
 
 # LONG EXAMPLE:
