@@ -48,7 +48,7 @@ p foods
 
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-email = {
+emails = {
   sender: "housing@appfolio.com",
   recipient: "Antonio.K.Hunt@Gmail.com",
   date: "Oct 20, 2022, 2:10 PM",
@@ -59,15 +59,15 @@ email = {
 }
 
 # Write code that prints your email hash to the terminal.
-p email
+p emails
 
 # Write code that prints all of the 'keys' of the email hash 
 # you created above:
-p email.keys
+p emails.keys
 
 # Write code that prints all of the 'values' of the email hash 
 # you created above:
-p email.values
+p emails.values
 
 
 #-------------------
@@ -119,7 +119,7 @@ p posts[0]
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
 
-email = [
+emails = [
   {
     sender: "housing@appfolio.com",
     recipient: "Antonio.K.Hunt@Gmail.com",
@@ -149,4 +149,4 @@ email = [
   },
 ]
 
-p email
+p emails
